@@ -1,0 +1,31 @@
+---
+title: "Excercice"
+author: "Thibaut Goetsch et Bineta FAYE"
+date: "2023-09-08"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exercice
+
+**Réalisez une fonction qui calcule la moyenne (avec vérification si bien numérique). Comparerz avec la fonction mean()**
+
+**Réalisez une fonction qui calcule la variance (avec vérification si bien numérique). Comparez avec var()**
+
+**Chargez le jeu de données iris et mettez le dans une variable df**
+
+**Pour chaque espèce d'iris présente dans la base de données, calculez la moyenne et la variance pour chaque variable**
+
+**Créez maintenant une boucle pour les calculer**
+
+**Mettez votre boucle dans une fonction qui affiche le nom de l’espèce, le nom de la variable et les différents résultats à chaque fois**
+
+**Améliorez votre fonction pour extraire ces résultats dans une nouvelle base de données plus petite que vous aurez créé**
+
+**(Avancé) Utilisez les fonctions dplyr pour obtenir le même résultat de la manière la plus courte possible**
+
